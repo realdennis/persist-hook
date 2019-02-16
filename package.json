@@ -1,0 +1,19 @@
+{
+  "name": "persist-hook",
+  "version": "0.0.1",
+  "description": "Persist Hook : Give me a key, I'll make your hook's state persistence.",
+  "main": "src/index.js",
+  "repository": "https://github.com/realdennis/persist-hook",
+  "author": "@realdennis",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "store": "^2.0.12"
+  },
+  "devDependencies": {
+    "react": "^16.8.0"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0"
+  }
+}
