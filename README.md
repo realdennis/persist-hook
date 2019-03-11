@@ -11,7 +11,7 @@ $ npm install persist-hook
 
 ## Usage
 
-```javascript
+```jsx
 import PersistHook from "persist-hook";
 
 const config = { key: "$$$normalhook" };
