@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { renderHook, act } from '@testing-library/react-hooks';
-import PersistHook from 'persist-hook';
+import PersistHook from '../src/index.js';
 const config = { key: '$$$normalhook' };
 const usePersistState = (initialValue = 0) => {
   const { setPersist, getPersist } = PersistHook(config);
