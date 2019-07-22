@@ -19,12 +19,13 @@
   "devDependencies": {
     "@babel/core": "^7.4.0",
     "@babel/preset-env": "^7.4.2",
+    "@testing-library/react-hooks": "^1.1.0",
     "babel-jest": "^24.5.0",
     "jest": "^24.5.0",
     "microbundle": "^0.11.0",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
-    "react-hooks-testing-library": "^0.3.8"
+    "react-test-renderer": "^16.8.6"
   },
   "peerDependencies": {
     "react": "^16.8.0"

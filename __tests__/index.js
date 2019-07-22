@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { renderHook, cleanup, act } from 'react-hooks-testing-library';
+import { renderHook, act } from '@testing-library/react-hooks';
 import PersistHook from 'persist-hook';
 const config = { key: '$$$normalhook' };
 const usePersistState = (initialValue = 0) => {
@@ -9,7 +9,7 @@ const usePersistState = (initialValue = 0) => {
   return [state, setState];
 };
 
-afterEach(cleanup);
+// afterEach(cleanup);
 test('initialShould be zero', () => {
   const { result } = renderHook(() => usePersistState(0));
   expect(result.current[0]).toBe(0);
